@@ -1,0 +1,361 @@
+Suppose that you have the following results of survey. Now it is necessary to analyze obtained survey by using Simple Random Sampling and Stratified Random Sampling. Recommended tool for using is MS Excel. 
+
+(Ignore the fpc and the clustering in calculating the standard error.)
+
+P.S.  when you are going to write your answer into answer sheet, please round up to 2 digits after floating point
+
+1) Assume that you're going to do Simple Random Sampling (SRS) for above dataset. 
+
+Compute a mean:  blank  blank  blank  blank  
+
+P.S here you need to drag-and-drop digit-by-digit. For example, if your answer is 35.13 then you need to drag 3, then 5, then . and then 1 and 3
+
+2) Compute a standard error for SRS:  blank  blank  blank  blank
+
+3) Now compute 95% of confidence interval. Please note that t-value in this case is equal to 2.04
+
+Upper limit for SRS:  blank  blank  blank  blank  blank
+
+Lower limit for SRS:  blank  blank  blank  blank  blank
+
+P.S You need to take rounded answers from 1st and 2nd questions 
+
+Now for Stratified part
+
+1) What is the value of Wh        blank  blank  blank  blank
+
+2) Compute a mean:  blank  blank  blank  blank  
+
+3) Compute a standard error for Stratified part:  blank  blank  blank  blank
+
+4) Compute d-value:  blank  blank  blank  blank
+Hint: d- value is a ratio of standard error for statified over standard error for SRS
+5) Compute d-squared:  blank  blank  blank  blank
+6) Compute Neff          blank  blank  blank  blank
+P.S you need to take exact anwer from 5-th step rounded up to 2 digits after floating point.
+1 2 3 4 5 6 7 8 9 0 ,
+Question 2
+Not yet answered
+Marked out of 10.00
+Flag question
+Question text
+Suppose that you're going to run linear regression with some input features and 1 output feature. Your hypothesis is linear
+
+11
+
+Firstly it it necessary to normalize your dataset: Z = (x-mu)/std
+
+Initial theta parameters is equal to zero. Learning rate is 0.01. Now, let's complete the following table: 
+
+#Iterations
+
+Cost Function (Round please up to integer value)
+
+Optimal Theta parameter
+
+Indicate here maximum theta value(Round please up to integer value)
+
+n=100
+
+  blank  blank  blank  blank  blank  blank
+
+  blank  blank  blank  blank
+
+n=1000
+
+  blank  blank  blank  blank  blank
+
+ blank  blank  blank  blank  
+
+n=10000
+
+  blank  blank  blank  blank
+
+  blank  blank  blank  blank
+
+
+
+1 2 3 4 5 6 7 8 9 0
+Question 3
+Not yet answered
+Marked out of 10.00
+Flag question
+Question text
+Suppose that you have the following dataset, with 3 input features, and 1 output feature. You're going to apply Logistic Regression algorithm with regularization.
+
+Firstly it is necessary to apply normaization with the following formula: Z = (X-mu)/std.
+
+Initial theta parameters = 0. 
+
+#Iterations, lambda, learning rate
+
+Cost function (rounded up to 2 digis after floating point)
+
+Optimal theta parameter
+
+Indicate here maximum theta value (rounded up to 2 digis after floating point)
+
+N=100, alpha = 1, lambda = 1
+
+ blank  blank  blank  blank
+
+ blank  blank  blank  blank
+
+N=1000, alpha = 1, lambda = 10
+
+ blank  blank  blank  blank
+
+ blank  blank  blank  blank
+
+N=10000, alpha = 2, lambda = 5
+
+ blank  blank  blank  blank
+
+ blank  blank  blank  blank
+
+
+After 10.000 iterations, alpha = 2, lambda = 5  and by setting threshold = 0.5, what is the number of zeros in the first 10 rows of prediction:
+ blank
+
+
+1 2 3 4 5 6 7 8 9 0 ,
+Question 4
+Not yet answered
+Marked out of 10.00
+Flag question
+Question text
+Suppose that you're going to run neural network algorithm (see attached document):
+
+a5 = [  blank ,   blank ]
+
+a4.max() =  blank  blank  blank  blank   (rounded up to integer)
+
+a3.max() =  blank  blank  blank   (rounded up to integer)
+
+a2.min() =  blank  blank    (rounded up to integer)
+
+a1.min() =  blank
+
+General Conclusion:  blank
+
+1 2 3 4 5 6 7 8 9 0
+Predicts image of cat Predicts image of dog
+Question 5
+Not yet answered
+Marked out of 9.00
+Flag question
+Question text
+Suppose that you have the following dataset with 4 input features, 1 output variable (0,1 or 2). Your main task is to apply LogisticRegression algorithm and define precision, recall, accuracy and F-1 score for each class. 
+
+First 60% of dataset should be training set and last 40% test set. 
+
+Please round up to 3 digits after floating point. Drag-and-drop answers digit-by-digit.
+
+List of necessary libraries: 
+
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+# Train a Logistic Regression classifier
+clf_lr = LogisticRegression(random_state=42, max_iter=1000)
+
+Accuracy:  blank  blank  blank  blank  blank
+F-1 score (class = 0):  blank  blank  blank  blank  blank
+F-1 score (class = 1):  blank  blank  blank  blank  blank
+F-1 score (class = 2):  blank  blank  blank  blank  blank
+
+1 2 3 4 5 6 7 8 9 0 ,
+
+The E-Learning Platform (ELP) is designed to facilitate online learning by providing a robust system for course management, student enrollment, content delivery, assessments, and progress tracking. The system should be accessible via web and mobile devices, ensuring an engaging and interactive learning experience.
+
+User Roles :
+Users must be able to register, update, and delete accounts.
+
+Admins should have the ability to approve or deactivate user accounts.
+
+Role-based access control must be implemented.
+
+Course Management : 
+Instructors should be able to create, edit, and delete courses.
+
+Courses should support multiple content formats (video, text, quizzes, assignments).
+
+The system should track course completion and student progress.
+
+System Features :
+Cloud-based infrastructure for accessibility.
+
+Secure database storage for course content and user data.
+
+Role-based access control (RBAC) for different user types.
+
+API integration with video conferencing tools.
+
+Automated grading and certification issuance.
+
+Assessment and Grading :
+The system should support quizzes, assignments, and exams.
+
+Instructors should be able to manually grade assignments.
+
+Automated grading should be available for multiple-choice assessments
+
+Security Requirements :
+User data should be encrypted at rest and in transit.
+
+Two-factor authentication should be required for admins.
+
+The system should log all access and modifications.
+
+
+Compatibility Requirements Assessment and Grading User Roles User Management System Features Course Management Security Requirements Performance Requirements Availability Requirements Operational Constraints
+Question 7
+Not yet answered
+Marked out of 12.00
+Flag question
+Question text
+Suppose that you have the following dataset. In this task you're going to analyze categorical variables, namely standard error,  95% CI using t-distribution and Entropy Measure for Categorical Diversity. Please read carefully attached methodology and by using Python find an answer for the following questions: 
+
+Income Level
+
+n
+
+ 
+
+Estimated Proportion (up to 2 digits)
+
+Standard Error (up to 3 digits)
+
+95% CI (t-distribution)
+
+(up to 3 digits) lower and upper
+
+Entropy Measure (up to 3 digits)
+
+Middle
+
+ blank  blank  blank
+
+ blank  blank  blank
+
+ blank  blank  blank  blank  blank
+
+ blank  blank  blank  blank  blank    and  blank  blank  blank  blank  blank
+
+ 
+
+ blank  blank  blank  blank  blank
+
+Low
+
+ blank  blank  blank
+
+ blank  blank  blank  blank
+
+ blank  blank  blank  blank  blank
+
+ blank  blank  blank  blank  blank    and  blank  blank  blank  blank  blank
+
+High
+
+ blank  blank  blank
+
+ blank  blank  blank  blank
+
+ blank  blank  blank  blank  blank
+
+ blank  blank  blank  blank  blank    and  blank  blank  blank  blank  blank
+
+
+1 2 3 4 5 6 7 8 9 0 ,
+Question 8
+Incomplete answer
+Marked out of 9.00
+Flag question
+Question text
+In this question you can see 1 code example that incorporate different naming conventions(see attached document). Please match variables' name with correct naming conventions.
+
+private int intEmployeeID;  blank
+
+public Employee(int employeeID, String firstName, String lastName, String ssn, Date dob, String pin)  blank      
+
+
+public void setEmployeeID(int employeeID) { this.intEmployeeID = employeeID; } blank
+
+private String strDepartmentName;    blank
+private String strCEO;    Acronym
+private String strCTO; Acronym
+public void AddDepartment(Department department)  blank
+Acronym Hungarian Pascal
+Please put an answer in each box.
+Question 9
+Not yet answered
+Marked out of 9.00
+Flag question
+Question text
+This question is related to Software Testing. Please read carefully attached document, and define correct Test case type.
+
+A
+
+Answer 1
+Stability Testing
+B
+
+Answer 2
+Choose...
+C
+
+Answer 3
+Choose...
+D
+
+Answer 4
+Choose...
+Question 10
+Answer saved
+Marked out of 10.00
+Flag question
+Question text
+In attached document you will have 2 examples of written codes. Please read carefully, if it is necessary you can run a code and specify for each case (bug problem or Ok case). 
+
+A
+
+Answer 1
+Syntax Error Bug
+B
+
+Answer 2
+OK Case
+C
+
+Answer 3
+OK Case
+D
+
+Answer 4
+Uninitialized Field Bug
+E
+
+Answer 5
+Method Call Error Bug
+F
+
+Answer 6
+Method Call Error Bug
+G
+
+Answer 7
+Logical Error Bug
+H
+
+Answer 8
+OK Case
+I
+
+Answer 9
+OK Case
+J
+
+Answer 10
+Syntax Error Bug
